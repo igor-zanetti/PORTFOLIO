@@ -1,0 +1,251 @@
+* {
+    box-sizing: border-box;
+  }
+  html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(90deg, #191919 0%, #050505 50%, #191919 100%);
+  }
+  
+  header {
+    width: 100%;
+    height: 10%;
+    background: linear-gradient(90deg, #191919 0%, #050505 50%, #191919 100%);
+    position: fixed;
+    top: 0;
+    
+  }
+  
+  #navbar {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+  }
+  
+  #navbar ul {
+    display: flex;
+    align-items: center;
+    margin: 0 1px;
+    height: 100%;
+  }
+  
+  #navbar li {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    width: 100%;
+    height: 100%;
+    padding: 3px 5px;
+    
+  }
+  
+  #navbar a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    color: green;
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-decoration: none;
+    border-radius: 10px;
+    
+  }
+  
+  
+  #welcome-section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+     background: linear-gradient(90deg, #191919 0%, #050505 50%, #191919 100%);
+  }
+  
+  #welcome-section h1, p {
+    margin: 3px;
+  }
+  
+  #welcome-section > h1 {
+    font-size: 3rem;
+    color: #efefef
+  }
+  
+  #welcome-section > p {
+    font-size: 2rem;
+    color: green;
+  }
+  
+  
+  #sobre, .sobre-div {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: #efefef;
+    background: linear-gradient(90deg, #191919 0%, #050505 50%, #191919 100%);
+  }
+  
+  .sobre-div {
+    width: 80%;
+    max-width: 900px;
+    padding: 3px 8px;
+    text-align: justify;
+  }
+  
+  #sobre h1 {
+    font-size: 3rem;
+    color: #efefef;
+  }
+  
+  #sobre p {
+    margin: 5px 0;
+  }
+  
+  iframe {
+    width: 99%;
+    height: 90%;
+    border-radius: 5px;
+  }
+  
+  #contact-link {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 80%;
+      
+  }
+  
+  
+  hr {
+    border: 1px solid;
+    color: green;
+    width: 90%;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  footer h4 {
+    text-align: right;
+    margin: 20px 5px;
+    color: green;
+    font-size: 0.7rem;
+  }
+  
+  
+  @media only screen and (max-width: 350px) {
+    .icon-div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 65px;
+    min-width: 5px;
+    height: 65px;
+    margin: 10px 10px;
+  }
+
+  
+    #navbar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+   
+  }
+  
+    #navbar ul {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    height: 100%;
+  }
+  
+    #navbar li {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    width: 10%;
+    height: 100%;
+  }
+  
+    #sobre {
+      margin-bottom: 10rem;
+    }
+  
+
+    #sobre h1 {
+    font-size: 2.4rem;
+    color: #efefef;
+  }
+    #sobre {
+      margin-bottom: 5rem;
+    }
+  
+    .social-link {
+        display: inline;
+        margin: 0 10px;
+        color: green;
+        text-decoration: none;
+        font-weight: bold;
+      }
+  
+      #experiencias {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        color: #efefef;
+        background: linear-gradient(90deg, #191919 0%, #050505 50%, #191919 100%);
+      }
+      
+      #experiencias h1 {
+        font-size: 2.4rem;
+        color: #efefef;
+      }
+
+      #experiencias {
+        margin-bottom: 5rem;
+      }
+  
+      #experiencias, .experiencias-div {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        color: #efefef;
+        background: linear-gradient(90deg, #191919 0%, #050505 50%, #191919 100%);
+      }
+      
+      .experiencias-div {
+        width: 80%;
+        max-width: 900px;
+        padding: 3px 8px;
+        text-align: justify;
+      }
