@@ -1,3 +1,3 @@
 # PORTFOLIO
 
-<a href="https://portfolioigorzz.000webhostapp.com/"> link do site</a>
+<a href="https://portfolioigorzz.000webhostapp.com/" _blank> link do site</a>
